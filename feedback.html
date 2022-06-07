@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>White Buterfly</title>
+	<link rel="shortcut icon" type="image" href="icon.png">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="wrapper4">
+		<nav class="navbar">
+			<img class="logo" src="logo.png" id="btn" onclick="play('5');">
+			<audio id="5" src = "pog.mp3"></audio> 
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="About.html">About</a></li>
+				<li><a href="serbisyo.html">Service</a></li>
+				<li><a href="contact.html">Contact</a></li>
+				<li><a class="active" href="feedback.html">Feedback</a></li>
+			</ul>
+		
+		</nav>
+		
+	</div>
+		
+		<div class="comment">
+			<h2>Comments</h2>
+			<form action="#">
+				<input type="text" name="username" placeholder="username...">
+				<textarea name="comment" placeholder="Type your Comment...">
+				</textarea>
+				<button type="submit">Send</button>
+			</form>
+		</div>
+		<script>
+			function play(element){
+			var audio = document.getElementById(element);
+			audio.play();
+             }
+			</script>
+	
+</body>
+
+</html>

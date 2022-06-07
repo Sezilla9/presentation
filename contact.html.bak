@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>White Buterfly</title>
+	<link rel="shortcut icon" type="image" href="icon.png">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+	<div class="wrapper3">
+		<nav class="navbar">
+			<img class="logo" src="logo.png" id="btn" onclick="play('5');">
+			<audio id="5" src = "pog.mp3"></audio> 
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="About.html">About</a></li>
+				<li><a href="serbisyo.html">Service</a></li>
+				<li><a class="active" href="contact.html">Contact</a></li>
+				<li><a href="feedback.html">Feedback</a></li>
+			</ul>
+		
+		</nav>
+	
+	
+	<script>
+			function play(element){
+			var audio = document.getElementById(element);
+			audio.play();
+             }
+			</script>
+	<section class="contact">
+		<div class="content">
+			<h2>Contact Us</h2>
+			<p>hahahahhaha</p>
+		</div>
+		<div class="contains">
+			<div class="containinfo">
+				<div class="baks">
+					<div class="icon"><i class="fa-solid fa-location-dot"></i></div>
+					<div class="teks">
+						<h3>Address</h3>
+						<p>B69 L420<br>Greenvalley San Nicolas III<br>Bacoor City</p>
+					</div>
+				</div>
+				<div class="baks">
+					<div class="icon"><i class="fa-solid fa-phone"></i></div>
+					<div class="teks">
+						<h3>Phone</h3>
+						<p>09069420727</p>
+					</div>
+				</div>
+				<div class="baks">
+					<div class="icon"><i class="fa-solid fa-envelope"></i></div>
+					<div class="teks">
+						<h3>Email</h3>
+						<p>mgabadang@gmail.com</p>
+					</div>
+				</div>
+			</div>
+			<div class="contactform">
+				<form>
+					<h2>Send Message</h2>
+					<div class="inputbox">
+						<input type="text" name="" required="required">
+						<span>Name</span>
+					</div>
+					<div class="inputbox">
+						<input type="text" name="" required="required">
+						<span>Email</span>
+					</div>
+					<div class="inputbox">
+						<input type="text" name="" required="required">
+						<span>Type your Message...</span>
+					</div>
+				</form>
+			</div>
+		</div>
+	</section>
+	</div>
+</body>
+
+</html>

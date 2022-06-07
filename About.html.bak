@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>White Buterfly</title>
+	<link rel="shortcut icon" type="image" href="icon.png">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+	<div class="wrapper1">
+		<nav class="navbar">
+			<img class="logo" src="logo.png" id="btn" onclick="play('5');">
+			<audio id="5" src = "pog.mp3"></audio> 
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a class="active" href="About.html">About</a></li>
+				<li><a href="serbisyo.html">Service</a></li>
+				<li><a href="contact.html">Contact</a></li>
+				<li><a href="feedback.html">Feedback</a></li>
+			</ul>
+		
+		</nav>
+		<div class= "text">
+		<h2>"Hotdog"</h2>
+		<h1>"A hot dog (less commonly spelled hotdog) is a food consisting of a grilled or steamed sausage served in the slit of a partially sliced bun.The term hot dog can also refer to the sausage itself. The sausage used is a wiener (Vienna sausage) or a frankfurter (Frankfurter Würstchen, also just called frank). The names of these sausages also commonly refer to their assembled dish. Some[who?] consider a hot dog to technically be a sandwich. Hot dog preparation and condiments vary worldwide. Typical condiments include mustard, ketchup, mayonnaise, relish, and cheese sauce. Common garnishes include onions, sauerkraut, jalapeños, chili, grated cheese, coleslaw, bacon, and olives. Hot dog variants include the corn dog and pigs in a blanket. The hot dog's cultural traditions include the Nathan's Hot Dog Eating Contest and the Oscar Mayer Wienermobile.
+			These types of sausages were culturally imported from Germany and became popular in the United States. It became a working-class street food in the U.S., sold at stands and carts. The hot dog became closely associated with baseball and American culture. Although particularly connected with New York City and its cuisine, the hot dog eventually became ubiquitous throughout the US during the 20th century. Its preparation varies regionally in the country, emerging as an important part of other regional cuisines, including Chicago street cuisine."
+		</h1>
+		
+		</div>
+		<img class="hakdog" src="hotdog.webp" id="btn" onclick="play('6');">
+		<audio id="6" src = "pog.mp3"></audio>
+		
+	</div>
+	<script>
+			function play(element){
+			var audio = document.getElementById(element);
+			audio.play();
+             }
+			</script>
+	
+</body>
+
+</html>

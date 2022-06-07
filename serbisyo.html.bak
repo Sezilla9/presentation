@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>White Buterfly</title>
+	<link rel="shortcut icon" type="image" href="icon.png">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="wrapper2">
+		<nav class="navbar">
+			<img class="logo" src="logo.png" id="btn" onclick="play('5');">
+			<audio id="5" src = "pog.mp3"></audio> 
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="About.html">About</a></li>
+				<li><a class="active" href="serbisyo.html">Service</a></li>
+				<li><a href="contact.html">Contact</a></li>
+				<li><a href="feedback.html">Feedback</a></li>
+			</ul>
+		
+		</nav>
+		<div class="play">
+				<script>
+			function play(element){
+			var audio = document.getElementById(element);
+			audio.play();
+             }
+			</script>
+				<img src="audio.png" id="btn" onclick="play('3');">
+                <audio id="3" src = "bgm.mp3"></audio>
+			</div>
+		<div class="turo">
+			<img src="turo.png" id="btn" onclick="play('4');">
+                <audio id="4" src = "waku.mp3"></audio>
+		</div>
+		
+		<div class= "serbest">
+			<h2>Our Services</h2>
+			<div class="line"></div>
+			<div class="single-service">
+				<h3>Single Service</h3>
+				<p>Her hair was a tangled mess which she tried to make presentable by 
+				putting in a lump on the top of her head. It didn't really work although 
+				it was a valiant attempt. While most people simply noticed the tangled 
+				mess on top of her head, what most people failed to understand that within 
+				the tangles mess was an entirely new year. That was her secret. She kept 
+				worlds on top of her head.</p>
+			</div>
+			<div class="double-service">
+				<h3>In a Relationship Service</h3>
+				<p>Her hair was a tangled mess which she tried to make presentable by 
+				putting in a lump on the top of her head. It didn't really work although 
+				it was a valiant attempt. While most people simply noticed the tangled 
+				mess on top of her head, what most people failed to understand that within 
+				the tangles mess was an entirely new year. That was her secret. She kept 
+				worlds on top of her head.</p>
+			</div>
+		</div>
+	</div>
+		
+		
+	
+</body>
+
+</html>

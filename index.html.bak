@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>White Buterfly</title>
+	<link rel="shortcut icon" type="image" href="icon.png">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="wrapper">
+		<nav class="navbar">
+			<img class="logo" src="logo.png" id="btn" onclick="play('5');">
+			<audio id="5" src = "pog.mp3"></audio>
+			<ul>
+				<li><a class="active" href="index.html">Home</a></li>
+				<li><a href="About.html">About</a></li>
+				<li><a href="serbisyo.html">Service</a></li>
+				<li><a href="contact.html">Contact</a></li>
+				<li><a href="feedback.html">Feedback</a></li>
+			</ul>
+		
+		</nav>
+		<div class="center">
+			<h1>Somewhere in the universe
+				Somewhere someone's got it worse</h1>
+			<h2>You can get addicted to a certain kind of sadness Like resignation to the end
+				Always the end So when we found that we could not make senseWell you said that we would still be friends
+				But I'll admit that I was glad that it was over</h2>
+		<ul>
+			<div class="buttons">
+			
+			<script>
+			function play(element){
+			var audio = document.getElementById(element);
+			audio.play();
+             }
+			</script>
+				<button id="btn" onclick="play('1');">Boom</button>
+                <audio id="1" src = "boom.mp3"></audio>
+				<button id="btn" onclick="play('2');">Nut</button>
+                <audio id="2" src = "nut.mp3"></audio>
+			  			
+			</div>
+			
+		</div>
+		
+	</div>
+	
+</body>
+
+</html>
